@@ -56,6 +56,7 @@ gunnchOS3k-MLV-Hackathons/
 ├── resources/               # Knowledge base (markdown)
 │   ├── README.md
 │   ├── what-is-a-hackathon.md
+│   ├── participant-outcomes.md
 │   ├── phone-first-toolkit.md
 │   ├── project-submission-guide.md
 │   ├── parents-and-guardians.md
@@ -103,6 +104,7 @@ python3 -m http.server 8080
 | Guide | Link |
 |-------|------|
 | What is a Hackathon? | [resources/what-is-a-hackathon.md](resources/what-is-a-hackathon.md) |
+| Participant Outcomes | [resources/participant-outcomes.md](resources/participant-outcomes.md) |
 | Phone-First Toolkit | [resources/phone-first-toolkit.md](resources/phone-first-toolkit.md) |
 | Project Submission | [resources/project-submission-guide.md](resources/project-submission-guide.md) |
 | Submission Template | [resources/devpost-style-submission-template.md](resources/devpost-style-submission-template.md) |

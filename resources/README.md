@@ -9,6 +9,7 @@ These markdown files support the public site in [`/docs`](../docs/index.html) an
 | Guide | Audience |
 |-------|----------|
 | [What is a Hackathon?](what-is-a-hackathon.md) | First-time participants |
+| [Participant Outcomes](participant-outcomes.md) | Zero-to-hero transformation, proof of work, portfolio ladder |
 | [Phone-First Toolkit](phone-first-toolkit.md) | Phone-only and low-storage participants |
 | [Project Submission Guide](project-submission-guide.md) | Teams submitting projects |
 | [Devpost-Style Submission Template](devpost-style-submission-template.md) | Teams filling out submission forms |

@@ -753,3 +753,109 @@ main {
 .kb-links a:hover {
   background: var(--gold-soft);
 }
+
+/* Participant outcomes — Zero-to-Hero */
+.outcomes-framing {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0 1.25rem;
+}
+.framing-badge {
+  font-size: 0.82rem;
+  font-weight: 700;
+  padding: 0.4rem 0.75rem;
+  border-radius: 999px;
+  background: var(--navy);
+  color: var(--gold-soft);
+  border: 1px solid var(--gold);
+}
+.outcomes-hero-title {
+  font-size: clamp(1.35rem, 3.5vw, 1.75rem);
+  color: var(--navy);
+  margin: 0 0 1rem;
+  line-height: 1.25;
+}
+.outcome-ladder {
+  list-style: none;
+  margin: 1.25rem 0 0;
+  padding: 0;
+}
+.ladder-step {
+  display: grid;
+  grid-template-columns: 3.25rem 1fr;
+  gap: 0 1rem;
+  padding-bottom: 1.25rem;
+  position: relative;
+}
+.ladder-step:not(:last-child)::before {
+  content: "";
+  position: absolute;
+  left: 1.5rem;
+  top: 3rem;
+  bottom: 0;
+  width: 4px;
+  background: linear-gradient(180deg, var(--gold), var(--blue-bright));
+  border-radius: 2px;
+}
+.ladder-level {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--navy), var(--blue));
+  color: var(--white);
+  font-weight: 800;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid var(--gold);
+  z-index: 1;
+  position: relative;
+}
+.ladder-body {
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  padding: 1rem 1.15rem;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--gray-200);
+}
+.ladder-body strong {
+  display: block;
+  color: var(--navy);
+  font-size: 1.05rem;
+  margin-bottom: 0.2rem;
+}
+.ladder-body p {
+  margin: 0;
+  font-size: 0.95rem;
+}
+.practice-card {
+  border-top: 3px solid var(--blue-bright);
+}
+.callout-transform {
+  background: linear-gradient(135deg, #0f2744 0%, #1a3a5c 100%);
+  color: var(--white);
+  border: none;
+  border-radius: var(--radius-lg);
+  padding: 1.35rem 1.5rem;
+  margin: 1.5rem 0;
+}
+.callout-transform strong {
+  color: var(--gold);
+  font-size: 1.15rem;
+}
+.callout-transform p {
+  color: rgba(255, 255, 255, 0.92);
+  margin: 0.5rem 0 0;
+}
+.packet-tier {
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem;
+  border: 1px solid var(--gray-200);
+  box-shadow: var(--shadow);
+}
+.packet-tier h3 { margin-top: 0; }
+.packet-tier.minimum { border-top: 4px solid var(--blue); }
+.packet-tier.loaded { border-top: 4px solid var(--gold); }
