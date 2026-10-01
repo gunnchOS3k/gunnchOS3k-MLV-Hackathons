@@ -1,0 +1,20 @@
+{
+  "repo": "gunnchOS3k-MLV-Hackathons",
+  "productName": "MLV hackathons",
+  "family": "3k MLV",
+  "classification": "META_DIRECTORY_WORKER",
+  "acceptedSha": "3fce6bf2103fb7b05022e362a7b8e624437f9659",
+  "status": "STAGING_WORKER",
+  "summary": "Directory for hackathon material presented with gunnchOS3k and Major League Hacking context as stated by the repository.",
+  "capabilities": [
+    "Read what the repository collects",
+    "Open the source repository"
+  ],
+  "limitations": [
+    "This page does not register teams or run a hackathon"
+  ],
+  "sourceUrl": "https://github.com/gunnchOS3k/gunnchOS3k-MLV-Hackathons",
+  "returnUrlEnv": "GUNNCHOS_PORTAL_URL",
+  "returnUrl": "https://gunnchos-site.gunnchos-finds.workers.dev",
+  "workerName": "gunnchos-mlv-hackathons"
+}

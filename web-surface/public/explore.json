@@ -1,0 +1,126 @@
+{
+  "schema": "gunnchos.surfacekit.v2",
+  "measured_topology": false,
+  "diagram_note": "Reading aid built from repository headings. It is not a measured topology and it is not a live system.",
+  "nodes": [
+    {
+      "id": "overview",
+      "label": "Overview"
+    },
+    {
+      "id": "mission",
+      "label": "Mission"
+    },
+    {
+      "id": "current-status-merrillville-pilot",
+      "label": "Current status \u2014 Merrillville pilot"
+    },
+    {
+      "id": "live-site-github-pages",
+      "label": "Live site (GitHub Pages)"
+    }
+  ],
+  "rows": [
+    {
+      "source": "README.md",
+      "scenario_id": "Overview",
+      "site_id": "3k MLV",
+      "ethical_framing": "# gunnchOS3k MLV Hackathons **Public landing page and knowledge base** for planned **Summer 2026** community hack days in Northwest Indiana \u2014 starting with the **Merrillville pilot Hack Day**. > **You do not need a thousand-dollar laptop to participate.** If you have a phone, curiosity, and willingness to learn, you can join, build, have fun, and compete. ---"
+    },
+    {
+      "source": "README.md",
+      "scenario_id": "Mission",
+      "site_id": "3k MLV",
+      "ethical_framing": "**gunnchOS3k MLV** is a Northwest Indiana-rooted technology education and innovation organization. We make computing, AI, games, and emerging technology accessible through **beginner-friendly, phone-first** hackathons where students, professionals, and curious community members can learn, collaborate, and build projects they are proud to show. This repository hosts: 1. A **static website** in [`/docs`](docs/index.htm"
+    },
+    {
+      "source": "README.md",
+      "scenario_id": "Current status \u2014 Merrillville pilot",
+      "site_id": "3k MLV",
+      "ethical_framing": "See [resources/updates.md](resources/updates.md) and [resources/mlh-application-status.md](resources/mlh-application-status.md). ---"
+    },
+    {
+      "source": "README.md",
+      "scenario_id": "Live site (GitHub Pages)",
+      "site_id": "3k MLV",
+      "ethical_framing": "After you enable GitHub Pages, the site will be available at: **`https://gunnchOS3k.github.io/gunnchOS3k-MLV-Hackathons/`** *(Enable Pages: Repository **Settings \u2192 Pages \u2192 Build from branch \u2192 `/docs` folder \u2192 Save.)* Until Pages is enabled, preview locally (below). ---"
+    },
+    {
+      "source": "README.md",
+      "scenario_id": "Repository structure",
+      "site_id": "3k MLV",
+      "ethical_framing": "gunnchOS3k-MLV-Hackathons/ \u251c\u2500\u2500 docs/ # Static website (GitHub Pages root) \u2502 \u251c\u2500\u2500 index.html # Main landing page \u2502 \u251c\u2500\u2500 styles.css \u2502 \u251c\u2500\u2500 script.js \u2502 \u2514\u2500\u2500 assets/ # Logo and images \u251c\u2500\u2500 resources/ # Knowledge base (markdown) \u2502 \u251c\u2500\u2500 README.md \u2502 \u251c\u2500\u2500 what-is-a-hackathon.md \u2502 \u251c\u2500\u2500 participant-outcomes.md \u2502 \u251c\u2500\u2500 phone-first-toolkit.md \u2502 \u251c\u2500\u2500 project-submission-guide.md \u2502 \u251c\u2500\u2500 parents-and-guardians.md \u2502 \u251c\u2500\u2500 volunteer-guide.md \u2502 \u251c\u2500\u2500 s"
+    },
+    {
+      "source": "README.md",
+      "scenario_id": "Preview locally",
+      "site_id": "3k MLV",
+      "ethical_framing": "No install required: 1. Clone this repository 2. Open **`docs/index.html`** in your web browser (double-click or File \u2192 Open) For a simple local server (optional): cd docs python3 -m http.server 8080 # Visit http://localhost:8080 ---"
+    }
+  ],
+  "sources": [],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "body": "# gunnchOS3k MLV Hackathons **Public landing page and knowledge base** for planned **Summer 2026** community hack days in Northwest Indiana \u2014 starting with the **Merrillville pilot Hack Day**. > **You do not need a thousand-dollar laptop to participate.** If you have a phone, curiosity, and willingness to learn, you can join, build, have fun, and compete. ---"
+    },
+    {
+      "id": "mission",
+      "title": "Mission",
+      "body": "**gunnchOS3k MLV** is a Northwest Indiana-rooted technology education and innovation organization. We make computing, AI, games, and emerging technology accessible through **beginner-friendly, phone-first** hackathons where students, professionals, and curious community members can learn, collaborate, and build projects they are proud to show. This repository hosts: 1. A **static website** in [`/docs`](docs/index.htm"
+    },
+    {
+      "id": "current-status-merrillville-pilot",
+      "title": "Current status \u2014 Merrillville pilot",
+      "body": "See [resources/updates.md](resources/updates.md) and [resources/mlh-application-status.md](resources/mlh-application-status.md). ---"
+    },
+    {
+      "id": "live-site-github-pages",
+      "title": "Live site (GitHub Pages)",
+      "body": "After you enable GitHub Pages, the site will be available at: **`https://gunnchOS3k.github.io/gunnchOS3k-MLV-Hackathons/`** *(Enable Pages: Repository **Settings \u2192 Pages \u2192 Build from branch \u2192 `/docs` folder \u2192 Save.)* Until Pages is enabled, preview locally (below). ---"
+    },
+    {
+      "id": "repository-structure",
+      "title": "Repository structure",
+      "body": "gunnchOS3k-MLV-Hackathons/ \u251c\u2500\u2500 docs/ # Static website (GitHub Pages root) \u2502 \u251c\u2500\u2500 index.html # Main landing page \u2502 \u251c\u2500\u2500 styles.css \u2502 \u251c\u2500\u2500 script.js \u2502 \u2514\u2500\u2500 assets/ # Logo and images \u251c\u2500\u2500 resources/ # Knowledge base (markdown) \u2502 \u251c\u2500\u2500 README.md \u2502 \u251c\u2500\u2500 what-is-a-hackathon.md \u2502 \u251c\u2500\u2500 participant-outcomes.md \u2502 \u251c\u2500\u2500 phone-first-toolkit.md \u2502 \u251c\u2500\u2500 project-submission-guide.md \u2502 \u251c\u2500\u2500 parents-and-guardians.md \u2502 \u251c\u2500\u2500 volunteer-guide.md \u2502 \u251c\u2500\u2500 s"
+    },
+    {
+      "id": "preview-locally",
+      "title": "Preview locally",
+      "body": "No install required: 1. Clone this repository 2. Open **`docs/index.html`** in your web browser (double-click or File \u2192 Open) For a simple local server (optional): cd docs python3 -m http.server 8080 # Visit http://localhost:8080 ---"
+    }
+  ],
+  "artifacts": [
+    "docs/assets/logo.svg"
+  ],
+  "methods": "",
+  "cards": [
+    {
+      "title": "Overview",
+      "body": "# gunnchOS3k MLV Hackathons **Public landing page and knowledge base** for planned **Summer 2026** community hack days in Northwest Indiana \u2014 starting with the **Merrillville pilot Hack Day**. > **You do not need a thousand-dollar laptop to participate.** If you have a phone, curiosity, and willingness to learn, you can join, build, have fun, and compete. ---"
+    },
+    {
+      "title": "Mission",
+      "body": "**gunnchOS3k MLV** is a Northwest Indiana-rooted technology education and innovation organization. We make computing, AI, games, and emerging technology accessible through **beginner-friendly, phone-first** hackathons where students, professionals, and curious community members can learn, collaborate, and build projects they are proud to show. This repository hosts: 1. A **static website** in [`/docs`](docs/index.htm"
+    },
+    {
+      "title": "Current status \u2014 Merrillville pilot",
+      "body": "See [resources/updates.md](resources/updates.md) and [resources/mlh-application-status.md](resources/mlh-application-status.md). ---"
+    },
+    {
+      "title": "Live site (GitHub Pages)",
+      "body": "After you enable GitHub Pages, the site will be available at: **`https://gunnchOS3k.github.io/gunnchOS3k-MLV-Hackathons/`** *(Enable Pages: Repository **Settings \u2192 Pages \u2192 Build from branch \u2192 `/docs` folder \u2192 Save.)* Until Pages is enabled, preview locally (below). ---"
+    },
+    {
+      "title": "Repository structure",
+      "body": "gunnchOS3k-MLV-Hackathons/ \u251c\u2500\u2500 docs/ # Static website (GitHub Pages root) \u2502 \u251c\u2500\u2500 index.html # Main landing page \u2502 \u251c\u2500\u2500 styles.css \u2502 \u251c\u2500\u2500 script.js \u2502 \u2514\u2500\u2500 assets/ # Logo and images \u251c\u2500\u2500 resources/ # Knowledge base (markdown) \u2502 \u251c\u2500\u2500 README.md \u2502 \u251c\u2500\u2500 what-is-a-hackathon.md \u2502 \u251c\u2500\u2500 participant-outcomes.md \u2502 \u251c\u2500\u2500 phone-first-toolkit.md \u2502 \u251c\u2500\u2500 project-submission-guide.md \u2502 \u251c\u2500\u2500 parents-and-guardians.md \u2502 \u251c\u2500\u2500 volunteer-guide.md \u2502 \u251c\u2500\u2500 s"
+    },
+    {
+      "title": "Preview locally",
+      "body": "No install required: 1. Clone this repository 2. Open **`docs/index.html`** in your web browser (double-click or File \u2192 Open) For a simple local server (optional): cd docs python3 -m http.server 8080 # Visit http://localhost:8080 ---"
+    }
+  ],
+  "runtime_mode": "PRECOMPUTED",
+  "runtime_boot": false
+}
